@@ -1,4 +1,4 @@
-{% set version = "0.1.9" %}
+{% set version = "0.1.10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppSimdJson_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppSimdJson/RcppSimdJson_{{ version }}.tar.gz
-  sha256: 5ef48bfd6152cd2ad613307ca5796633334a75fa66e8e1f75d374db5a744b1ee
+  sha256: 9445dd3541bba765f836d3a17409a6298fbe7045d3920c470168945029b1d0f1
 
 build:
   merge_build_host: true  # [win]

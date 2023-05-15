@@ -1,11 +1,22 @@
+About r-rcppsimdjson-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppsimdjson-feedstock/blob/main/LICENSE.txt)
+
 About r-rcppsimdjson
-====================
+--------------------
 
 Home: https://github.com/eddelbuettel/rcppsimdjson/
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppsimdjson-feedstock/blob/main/LICENSE.txt)
+Summary: The 'JSON' format is ubiquitous for data interchange, and the 'simdjson' library written by Daniel Lemire (and many contributors) provides a high-performance parser for these files which by relying on parallel 'SIMD' instruction manages to parse these files as faster than disk speed. See the <arXiv:1902.08318> paper for more details about 'simdjson'.  This package parses 'JSON' from string, file, or remote URLs under a variety of settings.
+About r-rcppsimdjson
+--------------------
+
+Home: https://github.com/eddelbuettel/rcppsimdjson/
+
+Package license: GPL-2.0-or-later
 
 Summary: The 'JSON' format is ubiquitous for data interchange, and the 'simdjson' library written by Daniel Lemire (and many contributors) provides a high-performance parser for these files which by relying on parallel 'SIMD' instruction manages to parse these files as faster than disk speed. See the <arXiv:1902.08318> paper for more details about 'simdjson'.  This package parses 'JSON' from string, file, or remote URLs under a variety of settings.
 
