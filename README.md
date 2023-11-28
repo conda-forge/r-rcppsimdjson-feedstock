@@ -3,6 +3,7 @@ About r-rcppsimdjson-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppsimdjson-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rcppsimdjson
 --------------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/eddelbuettel/rcppsimdjson/
 Package license: GPL-2.0-or-later
 
 Summary: The 'JSON' format is ubiquitous for data interchange, and the 'simdjson' library written by Daniel Lemire (and many contributors) provides a high-performance parser for these files which by relying on parallel 'SIMD' instruction manages to parse these files as faster than disk speed. See the <arXiv:1902.08318> paper for more details about 'simdjson'.  This package parses 'JSON' from string, file, or remote URLs under a variety of settings.
+
 About r-rcppsimdjson
 --------------------
 
@@ -146,7 +148,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
