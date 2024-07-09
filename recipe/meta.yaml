@@ -1,6 +1,5 @@
 {% set version = "0.1.12" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rcppsimdjson
@@ -13,10 +12,10 @@ source:
   sha256: ffb9cc8fdc869a4d2a2d1fb90bf0ecd57d7134a287a7ae86e3e0a2668a65753b
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   # Win compile error
-  skip: true  # [win]
+  # Checking windows to see if it passes. Uncomment the line if it fails.
+  # skip: true  # [win]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,7 +44,6 @@ requirements:
     - r-rcpp
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
     - r-rcpp
 
 test:
