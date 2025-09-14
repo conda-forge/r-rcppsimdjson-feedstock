@@ -1,4 +1,4 @@
-{% set version = "0.1.13" %}
+{% set version = "0.1.14" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppSimdJson_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppSimdJson/RcppSimdJson_{{ version }}.tar.gz
-  sha256: 27d8eb2963020b1da789d4074cafe9b74d6d1d107baecba69026cf6875733e5c
+  sha256: 159cb920f58f291dcbe6562e3cbf7af8b21f7d0ee246c1b6e4181868df764ca4
 
 build:
   number: 0
