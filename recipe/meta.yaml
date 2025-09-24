@@ -12,7 +12,7 @@ source:
   sha256: 159cb920f58f291dcbe6562e3cbf7af8b21f7d0ee246c1b6e4181868df764ca4
 
 build:
-  number: 0
+  number: 1
   # Win compile error
   # Checking windows to see if it passes. Uncomment the line if it fails.
   # skip: true  # [win]
