@@ -1,4 +1,4 @@
-{% set version = "0.1.15" %}
+{% set version = "0.1.16" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppSimdJson_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppSimdJson/RcppSimdJson_{{ version }}.tar.gz
-  sha256: b82dc811c4de204f6352cadeb5073557cb75a9a9efb7e70c2d62cf8b79907072
+  sha256: 61969bb6884a30eab0b82d02952400197aa6cd2179e6568046eb1c9c21736368
 
 build:
   number: 0
@@ -54,8 +54,8 @@ test:
 about:
   home: https://github.com/eddelbuettel/rcppsimdjson/
   license: GPL-2.0-or-later
-  summary: The 'JSON' format is ubiquitous for data interchange, and the 'simdjson' library written by Daniel Lemire (and many contributors) provides a high-performance parser for these files which by relying on parallel 'SIMD' instruction manages to parse these files as faster than disk speed. See the <arXiv:1902.08318>
-    paper for more details about 'simdjson'.  This package parses 'JSON' from string, file, or remote URLs under a variety of settings.
+  summary: The 'JSON' format is ubiquitous for data interchange, and the 'simdjson' library written by Daniel Lemire (and many contributors) provides a high-performance parser for these files which by relying on parallel 'SIMD' instruction manages to parse these files as faster than disk speed. See the 
+    <arXiv:1902.08318> paper for more details about 'simdjson'.  This package parses 'JSON' from string, file, or remote URLs under a variety of settings.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
